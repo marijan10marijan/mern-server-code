@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import { ObjectId } from "mongodb";
-import db from "../db/connection.js";
+import db from "./db/connection";
 
 const PORT = process.env.PORT || 5050;
 const app = express();
